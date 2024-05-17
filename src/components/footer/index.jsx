@@ -67,11 +67,6 @@ const Footer = () => {
             </section>
             <section className='bg-red-900 text-center py-4'>
                 <p>Develop And Design by <Link to='https://www.brandladder.co.in/' className='text-blue-300 hover:text-blue-950 transition-all duration-200'>Brandladder Pvt Ltd</Link> </p>
-                <img
-                    src="https://firebasestorage.googleapis.com/v0/b/brandladder-webapp.appspot.com/o/general%2Ffull-logo.png?alt=media&token=5a963339-c8d7-42f1-9b21-fc29358196e6"
-                    alt="Brandladder Pvt Ltd"
-                    className='w-2/5 md:w-1/5 mx-auto bg-red-950 bg-opacity-30 block px-4 py-2'
-                />
             </section>
         </footer>
     );

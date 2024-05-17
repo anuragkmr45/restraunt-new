@@ -10,14 +10,14 @@ const TopBar = () => {
         <div className="fixed z-50 inset-x-0 top-0 bg-gray-800 bg-opacity-65">
             <div className="py-1 mx-auto flex justify-between items-center px-2">
                 {/* Logo */}
-                <div>
+                <Link to='/'>
                     <img
                         src='https://res.cloudinary.com/dmrpovrmd/image/upload/v1711775838/logo_q1of0l.jpg'
                         loading='lazy'
                         alt="Love Khati Logo"
                         className="h-12 md:h-16 rounded"
                     />
-                </div>
+                </Link>
                 {/* Navigation Items */}
                 <ul className="flex justify-center space-x-3 lg:space-x-10">
                     <li>

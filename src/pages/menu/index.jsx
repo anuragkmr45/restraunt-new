@@ -80,7 +80,7 @@ const Menu = () => {
                             }
                         </aside>
 
-                        <aside className='grid grid-cols-4 gap-8'>
+                        <aside className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8'>
                             {
                                 selectTab === 'soups' && (
                                     soup?.map((data, index) => {
@@ -92,7 +92,7 @@ const Menu = () => {
                             }
                         </aside>
 
-                        <aside className='grid grid-cols-4 gap-8'>
+                        <aside className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8'>
                             {
                                 selectTab === 'rotiParathaRice' && (
                                     rotiParathaRice?.map((data, index) => {
@@ -104,7 +104,7 @@ const Menu = () => {
                             }
                         </aside>
 
-                        <aside className='grid grid-cols-4 gap-8'>
+                        <aside className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8'>
                             {
                                 selectTab === 'maincourse' && (
                                     mainCourse?.map((data, index) => {
@@ -116,7 +116,7 @@ const Menu = () => {
                             }
                         </aside>
 
-                        <aside className='grid grid-cols-4 gap-8'>
+                        <aside className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8'>
                             {
                                 selectTab === 'briyani' && (
                                     briyani?.map((data, index) => {
@@ -128,7 +128,7 @@ const Menu = () => {
                             }
                         </aside>
 
-                        <aside className='grid grid-cols-4 gap-8'>
+                        <aside className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8'>
                             {
                                 selectTab === 'thali' && (
                                     thali?.map((data, index) => {
